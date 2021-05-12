@@ -1,0 +1,111 @@
+html,body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.center{
+  align-items: center;
+  text-align: center;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+}
+
+.product-img {
+  width: 275px;
+}
+.body-height{
+  margin-top: 100px;
+}
+.float-right{
+  float: right;
+
+}
+.checkout-button{
+  margin-right: 50px;
+    margin-top: 90px;
+}
+.color {
+  color: aliceblue;
+}
+.font-color {
+  color:black
+}
+.font-color-blue {
+  color:rgb(15, 150, 204);
+}
+.navabr-height {
+  height: 50px;
+}
+.logo{
+  width: 100px;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.ml {
+  margin-left: 230px;
+}
+.h-100{
+  height: 100%;
+}
+
+.img-checkout {
+  height: 100px !important;
+}
+
